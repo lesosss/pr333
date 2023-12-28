@@ -1,0 +1,10 @@
+C:\Users\Komp-Home\Source\Repos\lesosss\pr333\bin\Debug\pr333.exe.config
+C:\Users\Komp-Home\Source\Repos\lesosss\pr333\bin\Debug\pr333.exe
+C:\Users\Komp-Home\Source\Repos\lesosss\pr333\bin\Debug\pr333.pdb
+C:\Users\Komp-Home\Source\Repos\lesosss\pr333\obj\Debug\pr333.csproj.AssemblyReference.cache
+C:\Users\Komp-Home\Source\Repos\lesosss\pr333\obj\Debug\pr333.Form1.resources
+C:\Users\Komp-Home\Source\Repos\lesosss\pr333\obj\Debug\pr333.Properties.Resources.resources
+C:\Users\Komp-Home\Source\Repos\lesosss\pr333\obj\Debug\pr333.csproj.GenerateResource.cache
+C:\Users\Komp-Home\Source\Repos\lesosss\pr333\obj\Debug\pr333.csproj.CoreCompileInputs.cache
+C:\Users\Komp-Home\Source\Repos\lesosss\pr333\obj\Debug\pr333.exe
+C:\Users\Komp-Home\Source\Repos\lesosss\pr333\obj\Debug\pr333.pdb
