@@ -43,9 +43,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.textFlight = new System.Windows.Forms.ComboBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.PasashirQuantity = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.Pasashir = new System.Windows.Forms.CheckBox();
             this.RetiredPeopleQuantity = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.RetiredPeople = new System.Windows.Forms.CheckBox();
@@ -199,6 +199,7 @@
             this.DataThere.Name = "DataThere";
             this.DataThere.Size = new System.Drawing.Size(173, 20);
             this.DataThere.TabIndex = 0;
+            this.DataThere.ValueChanged += new System.EventHandler(this.DataThere_ValueChanged);
             // 
             // label5
             // 
@@ -225,9 +226,9 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.textBox2);
+            this.groupBox4.Controls.Add(this.PasashirQuantity);
             this.groupBox4.Controls.Add(this.label12);
-            this.groupBox4.Controls.Add(this.checkBox2);
+            this.groupBox4.Controls.Add(this.Pasashir);
             this.groupBox4.Controls.Add(this.RetiredPeopleQuantity);
             this.groupBox4.Controls.Add(this.label11);
             this.groupBox4.Controls.Add(this.RetiredPeople);
@@ -242,12 +243,13 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Количество пасажиров";
             // 
-            // textBox2
+            // PasashirQuantity
             // 
-            this.textBox2.Location = new System.Drawing.Point(143, 41);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(85, 20);
-            this.textBox2.TabIndex = 6;
+            this.PasashirQuantity.Enabled = false;
+            this.PasashirQuantity.Location = new System.Drawing.Point(143, 41);
+            this.PasashirQuantity.Name = "PasashirQuantity";
+            this.PasashirQuantity.Size = new System.Drawing.Size(85, 20);
+            this.PasashirQuantity.TabIndex = 6;
             // 
             // label12
             // 
@@ -258,18 +260,20 @@
             this.label12.TabIndex = 18;
             this.label12.Text = "Количество пасажиров";
             // 
-            // checkBox2
+            // Pasashir
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(12, 22);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(72, 17);
-            this.checkBox2.TabIndex = 17;
-            this.checkBox2.Text = "Пасажир";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.Pasashir.AutoSize = true;
+            this.Pasashir.Location = new System.Drawing.Point(12, 22);
+            this.Pasashir.Name = "Pasashir";
+            this.Pasashir.Size = new System.Drawing.Size(72, 17);
+            this.Pasashir.TabIndex = 17;
+            this.Pasashir.Text = "Пасажир";
+            this.Pasashir.UseVisualStyleBackColor = true;
+            this.Pasashir.CheckedChanged += new System.EventHandler(this.Pasashir_CheckedChanged);
             // 
             // RetiredPeopleQuantity
             // 
+            this.RetiredPeopleQuantity.Enabled = false;
             this.RetiredPeopleQuantity.Location = new System.Drawing.Point(140, 140);
             this.RetiredPeopleQuantity.Name = "RetiredPeopleQuantity";
             this.RetiredPeopleQuantity.Size = new System.Drawing.Size(91, 20);
@@ -293,6 +297,7 @@
             this.RetiredPeople.TabIndex = 10;
             this.RetiredPeople.Text = "Пенсионеры";
             this.RetiredPeople.UseVisualStyleBackColor = true;
+            this.RetiredPeople.CheckedChanged += new System.EventHandler(this.RetiredPeople_CheckedChanged);
             // 
             // ChildQuantity
             // 
@@ -460,9 +465,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.CheckBox RetiredPeople;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox PasashirQuantity;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox Pasashir;
         private System.Windows.Forms.TextBox RetiredPeopleQuantity;
         private System.Windows.Forms.Label label11;
     }
