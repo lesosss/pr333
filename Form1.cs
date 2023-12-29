@@ -33,7 +33,6 @@ namespace pr333
             CarloadChek();//чек по выбору вагона
             BaggageCheck();//багаж
             Result();
-            EndTheEnd();
         }
 
         private void BtnFinalBill_Click(object sender, EventArgs e)
@@ -144,12 +143,6 @@ namespace pr333
                 PasashirCost = (PasashirCost) * x;
             }
         }
-
-        private void EndTheEnd()
-        {
-            
-        }
-        
 
         // вкл/выкл ChildQuantity где вписывается количество детей
         private void Child_CheckedChanged(object sender, EventArgs e)
